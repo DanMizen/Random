@@ -3,8 +3,9 @@ class Node(object):
         self.value = value
         self.left = None
         self.right = None
-
-traversal_type = input("Traversal Type: ")
+        
+#select travesal type
+traversal_type = input("Traversal Type: ") 
 
 class BinaryTree(object):
     def __init__(self, root):
